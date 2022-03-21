@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Font selection */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/* container design */
+.flexContainer {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    width: 140px;
+    color: red;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.title-logo {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 30px;
+    border-bottom: gray solid 1px;
+  }
+
+  .title {
+    margin-top: 5px;
+    padding-left: 6px;
+  }
+  /* timer, score, name input font */
+  #timer, #scoreNameInput {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+  }
+
+  #quizArea {
+    margin: 200px 50px;
+    color: blue;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+    color: red;
+    background-color: purple;
+    padding: 15px;
+    margin: 30px;
+    border: blue 2px solid;
+    border-radius: 15px;
+    font-size: 30px;
+    box-shadow: 1px 2px;
+    outline: none;
+  }
+  
+  #name {
+    height: 56px;
+    border: purple solid 2px;
+    color: blue;
+    border-radius: 20px;
+    font-size: 50px;
+    outline: none;
+    text-align: center;
+  }
+  /* opacity for button hover */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:active {
+    transform: translateY(4px)
+  }
